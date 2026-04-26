@@ -1,4 +1,21 @@
+# ══════════════════════════════════════════
+# ROBOTS.TXT — ZOI RESTAURANT
+# Tells search engine crawlers what to index
+# ══════════════════════════════════════════
+
+# Allow all search engines to crawl everything
 User-agent: *
 Allow: /
 
-Sitemap: https://zoirestaurant.com/sitemap.xml
+# Block admin panel from being indexed
+Disallow: /admin
+Disallow: /admin/
+
+# Block internal API routes if any
+Disallow: /api/
+
+# Sitemap location — critical for Google
+Sitemap: https://zoi-restaurant.vercel.app/sitemap.xml
+
+# Crawl delay (optional, prevents server overload)
+Crawl-delay: 1

@@ -1,8 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- HOME — Highest priority -->
   <url>
-    <loc>https://zoirestaurant.com/</loc>
+    <loc>https://zoi-restaurant.vercel.app/</loc>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- RESERVATIONS — High priority, drives bookings -->
+  <url>
+    <loc>https://zoi-restaurant.vercel.app/reservations</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- MENU — High priority, frequently searched -->
+  <url>
+    <loc>https://zoi-restaurant.vercel.app/menu</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- EVENTS — Updated frequently -->
+  <url>
+    <loc>https://zoi-restaurant.vercel.app/events</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- GALLERY -->
+  <url>
+    <loc>https://zoi-restaurant.vercel.app/gallery</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ABOUT -->
+  <url>
+    <loc>https://zoi-restaurant.vercel.app/about</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- CONTACT -->
+  <url>
+    <loc>https://zoi-restaurant.vercel.app/contact</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
 </urlset>

@@ -1,5 +1,8 @@
 import { useEffect, useRef, useState, useCallback } from 'react'
 import { gsap } from 'gsap'
+import useSEO from "../hooks/useSEO.ts";
+import SEOContent from "../components/seo/SEOContent.tsx";
+import { SEO_PAGES } from "../lib/seoConfig.ts";
 
 const heroImages = [
   '/assets/hero-1.jpg',
@@ -24,6 +27,7 @@ const headlines = [
 ]
 
 export default function HeroSection() {
+  useSEO(SEO_PAGES.home);
   const sectionRef = useRef<HTMLDivElement>(null)
   const slidesRef = useRef<HTMLDivElement[]>([])
   const titleRef = useRef<HTMLDivElement>(null)
@@ -145,6 +149,7 @@ export default function HeroSection() {
 
   return (
     <section ref={sectionRef} className="relative w-full overflow-hidden" style={{ height: '100vh' }}>
+      <SEOContent page="home" /> 
       {/* Background Slides */}
       {heroImages.map((img, i) => (
         <div
