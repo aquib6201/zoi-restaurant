@@ -3,29 +3,265 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Zoi Restaurant | Fine Dining in Ranchi</title>
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <link rel="apple-touch-icon" href="/favicon.png" />
-    
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Zoi Restaurant offers a luxury dining experience in Ranchi. Discover our exquisite Asian, Italian, Continental, and Mediterranean cuisines crafted to perfection." />
-    <meta name="keywords" content="Zoi Restaurant, Zoi Ranchi, fine dining Ranchi, best restaurant in Ranchi, Asian cuisine Ranchi, Italian food Ranchi, luxury dining" />
+
+    <!-- ═══════════════════════════════════════ -->
+    <!--  PRIMARY SEO META TAGS                  -->
+    <!-- ═══════════════════════════════════════ -->
+    <title>Zoi Restaurant Ranchi | Fine Dining, Bar & Live Events | JD Hi Street Mall</title>
+    <meta name="description" content="Zoi Restaurant — Ranchi's premier fine dining destination at JD Hi Street Mall, Hindpiri. Enjoy Asian, Continental & Mediterranean cuisine, craft cocktails, live music & DJ nights. Book your table now." />
+    <meta name="keywords" content="Zoi restaurant Ranchi, fine dining Ranchi, best restaurant Ranchi, luxury restaurant Ranchi, restaurant JD Hi Street Mall, bar Ranchi, DJ night Ranchi, live music restaurant Ranchi, table booking Ranchi, Asian food Ranchi, Continental restaurant Ranchi, Mediterranean cuisine Ranchi, rooftop restaurant Ranchi, date night restaurant Ranchi, private dining Ranchi" />
     <meta name="author" content="Zoi Restaurant" />
-    <meta name="robots" content="index, follow" />
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Zoi Restaurant | Fine Dining in Ranchi" />
-    <meta property="og:description" content="Zoi Restaurant offers a luxury dining experience in Ranchi. Discover our exquisite Asian, Italian, Continental, and Mediterranean cuisines crafted to perfection." />
-    <meta property="og:image" content="/assets/hero-1.jpg" />
-    
-    <!-- Twitter -->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="geo.region" content="IN-JH" />
+    <meta name="geo.placename" content="Ranchi, Jharkhand, India" />
+    <meta name="geo.position" content="23.3441;85.3096" />
+    <meta name="ICBM" content="23.3441, 85.3096" />
+    <link rel="canonical" href="https://zoi-restaurant.vercel.app/" />
+
+    <!-- ═══════════════════════════════════════ -->
+    <!--  OPEN GRAPH (WhatsApp, Facebook, LinkedIn) -->
+    <!-- ═══════════════════════════════════════ -->
+    <meta property="og:type" content="restaurant" />
+    <meta property="og:site_name" content="Zoi Restaurant Ranchi" />
+    <meta property="og:title" content="Zoi Restaurant Ranchi | Fine Dining, Bar & Live Events" />
+    <meta property="og:description" content="Ranchi's most premium dining experience. Exquisite food, craft cocktails, live music & DJ nights at JD Hi Street Mall, Hindpiri. Reserve your table today." />
+    <meta property="og:image" content="https://zoi-restaurant.vercel.app/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Zoi Restaurant Ranchi — Fine Dining Interior" />
+    <meta property="og:url" content="https://zoi-restaurant.vercel.app/" />
+    <meta property="og:locale" content="en_IN" />
+
+    <!-- Restaurant-specific OG -->
+    <meta property="restaurant:contact_info:locality" content="Ranchi" />
+    <meta property="restaurant:contact_info:region" content="Jharkhand" />
+    <meta property="restaurant:contact_info:country_name" content="India" />
+
+    <!-- ═══════════════════════════════════════ -->
+    <!--  TWITTER CARD                           -->
+    <!-- ═══════════════════════════════════════ -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Zoi Restaurant | Fine Dining in Ranchi" />
-    <meta name="twitter:description" content="Zoi Restaurant offers a luxury dining experience in Ranchi. Discover our exquisite Asian, Italian, Continental, and Mediterranean cuisines crafted to perfection." />
-    <meta name="twitter:image" content="/assets/hero-1.jpg" />
+    <meta name="twitter:title" content="Zoi Restaurant Ranchi | Fine Dining & Bar" />
+    <meta name="twitter:description" content="Ranchi's most premium dining experience. Exquisite food, craft cocktails, live music & DJ nights at JD Hi Street Mall." />
+    <meta name="twitter:image" content="https://zoi-restaurant.vercel.app/og-image.jpg" />
+    <meta name="twitter:image:alt" content="Zoi Restaurant Ranchi Fine Dining" />
+
+    <!-- ═══════════════════════════════════════ -->
+    <!--  FAVICON                                -->
+    <!-- ═══════════════════════════════════════ -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#C9A96E" />
+
+    <!-- ═══════════════════════════════════════ -->
+    <!--  PRECONNECT FOR PERFORMANCE             -->
+    <!-- ═══════════════════════════════════════ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- ═══════════════════════════════════════ -->
+    <!--  SCHEMA MARKUP — STRUCTURED DATA        -->
+    <!--  This makes Google show rich results    -->
+    <!-- ═══════════════════════════════════════ -->
+
+    <!-- 1. Restaurant Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://zoi-restaurant.vercel.app/#restaurant",
+      "name": "Zoi Restaurant",
+      "alternateName": "Zoi Ranchi",
+      "description": "Zoi Restaurant is Ranchi's premier fine dining destination offering exquisite Asian, Italian, Continental, and Mediterranean cuisines with craft cocktails, live music, and DJ nights.",
+      "url": "https://zoi-restaurant.vercel.app",
+      "telephone": "+91-XXXXXXXXXX",
+      "email": "info@zoirestaurant.com",
+      "image": [
+        "https://zoi-restaurant.vercel.app/og-image.jpg"
+      ],
+      "logo": "https://zoi-restaurant.vercel.app/favicon.png",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "4th Floor, JD Hi Street Mall, Mahatma Gandhi Main Road, Hindpiri",
+        "addressLocality": "Ranchi",
+        "addressRegion": "Jharkhand",
+        "postalCode": "834001",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 23.3441,
+        "longitude": 85.3096
+      },
+      "hasMap": "https://maps.google.com/?q=Zoi+Restaurant+Ranchi",
+      "servesCuisine": [
+        "Asian",
+        "Italian",
+        "Continental",
+        "Mediterranean",
+        "Indian"
+      ],
+      "priceRange": "₹₹₹",
+      "currenciesAccepted": "INR",
+      "paymentAccepted": "Cash, Credit Card, Debit Card, UPI",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "12:00",
+          "closes": "23:00"
+        }
+      ],
+      "hasMenu": "https://zoi-restaurant.vercel.app/menu",
+      "acceptsReservations": "True",
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Live Music",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "DJ Nights",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Bar",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Private Dining",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Air Conditioning",
+          "value": true
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.4",
+        "reviewCount": "863",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "sameAs": [
+        "https://www.instagram.com/lifeatzoi/",
+        "https://www.zomato.com/ranchi/zoi-restaurant"
+      ]
+    }
+    </script>
+
+    <!-- 2. Local Business Schema (reinforces local SEO) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Zoi Restaurant",
+      "image": "https://zoi-restaurant.vercel.app/og-image.jpg",
+      "url": "https://zoi-restaurant.vercel.app",
+      "telephone": "+91-XXXXXXXXXX",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "4th Floor, JD Hi Street Mall, Mahatma Gandhi Main Road, Hindpiri",
+        "addressLocality": "Ranchi",
+        "addressRegion": "Jharkhand",
+        "postalCode": "834001",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 23.3441,
+        "longitude": 85.3096
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+          "opens": "12:00",
+          "closes": "23:00"
+        }
+      ],
+      "priceRange": "₹₹₹"
+    }
+    </script>
+
+    <!-- 3. Website Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Zoi Restaurant Ranchi",
+      "url": "https://zoi-restaurant.vercel.app",
+      "description": "Official website of Zoi Restaurant, Ranchi's premier fine dining destination",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://zoi-restaurant.vercel.app/menu?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <!-- 4. BreadcrumbList Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://zoi-restaurant.vercel.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Menu",
+          "item": "https://zoi-restaurant.vercel.app/menu"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Events",
+          "item": "https://zoi-restaurant.vercel.app/events"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Gallery",
+          "item": "https://zoi-restaurant.vercel.app/gallery"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Reservations",
+          "item": "https://zoi-restaurant.vercel.app/reservations"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Contact",
+          "item": "https://zoi-restaurant.vercel.app/contact"
+        }
+      ]
+    }
+    </script>
+
   </head>
   <body>
     <div id="root"></div>
