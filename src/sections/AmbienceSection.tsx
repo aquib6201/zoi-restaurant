@@ -1,10 +1,16 @@
 import { useEffect, useRef } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import useSEO from "../hooks/useSEO.ts";
+import SEOContent from "../components/seo/SEOContent.tsx";
+import { SEO_PAGES } from "../lib/seoConfig.ts";
+
 
 gsap.registerPlugin(ScrollTrigger)
 
 export default function AmbienceSection() {
+  useSEO(SEO_PAGES.about);
+
   const sectionRef = useRef<HTMLDivElement>(null)
   const imageRef = useRef<HTMLDivElement>(null)
   const imageInnerRef = useRef<HTMLDivElement>(null)
@@ -115,6 +121,7 @@ export default function AmbienceSection() {
       className="bg-warmgrey"
       style={{ padding: 'clamp(80px, 10vw, 120px) 0' }}
     >
+      <SEOContent page="about" />
       <div className="container-main">
         <div className="flex flex-col lg:flex-row gap-12 lg:gap-16 items-center">
           {/* Left Column - Text */}
